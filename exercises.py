@@ -9,7 +9,8 @@
 #
 # Define your function and call it below.
 
-def calculate_area_triangle(l, w):
-    area = int(l) * int(w)
+def calculate_area_triangle(h, w):
+    area = int(h) * (.5 * int(w))
+    return(area)
 
-print('Exercise 1:', calculate_area_triangle(10, 5))
+print('Exercise 1:', calculate_area_triangle(7, 3))
